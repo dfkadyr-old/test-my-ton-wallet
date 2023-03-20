@@ -1,0 +1,27 @@
+.action-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.action-button {
+  flex: 0 0 23%;
+}
+
+.tabs-content-wrapper {
+	border-radius: var(--border-radius-16);
+	background-color: var(--card-bg);
+}
+
+.tab-content {
+  padding: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+.text {
+  margin: 10px 0;
+  font: var(--font-xm);
+}

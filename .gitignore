@@ -1,0 +1,13 @@
+/build
+node_modules
+.idea
+.DS_Store
+/storybook-static
+.loki/report.html
+.loki/report.json
+.env
+/reports/unit
+/.pnp
+.pnp.js
+.husky
+dist

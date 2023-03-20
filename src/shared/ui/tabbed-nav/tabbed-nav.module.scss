@@ -1,0 +1,18 @@
+.tab-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 40px;
+	border-bottom: var(--separator-border);
+}
+
+.tab {
+	padding: 15px 0;
+	transition: color .4s, border-bottom .4s;
+	border-bottom: 1px solid transparent;
+	cursor: pointer;
+}
+
+.active {
+	color: var(--accent-blue);
+	border-bottom: 1px solid var(--accent-blue);
+}

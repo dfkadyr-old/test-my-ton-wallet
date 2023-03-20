@@ -1,0 +1,104 @@
+.dialog {
+  position: relative;
+  z-index: var(--modal-z-index);
+}
+
+.insetZero {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.dialogInnerWrap {
+  position: fixed;
+  overflow-y: auto;
+}
+
+.dialogPanelWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100%;
+}
+
+.dialogPanel {
+  width: 100%;
+  max-width: 472px;
+	margin: 15px;
+  border-radius: var(--border-radius-12);
+  overflow: hidden;
+  background-color: var(--card-bg);
+  padding: 24px 32px;
+  box-shadow: var(--modal-shadow);
+  vertical-align: middle;
+  text-align: left;
+  transition: all;
+  color: var(--white);
+  font: var(--font-m);
+}
+
+.dialogHeaderWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.childrenWrap {
+  margin-top: 12px;
+}
+
+.dialogTitle {
+  color: var(--white);
+  font: var(--font-l);
+}
+
+.backdrop {
+  background-color: black;
+  position: fixed;
+  transition: all;
+}
+
+.backdropFrom {
+  opacity: 0;
+}
+
+.backdropTo {
+  opacity: 0.7;
+}
+
+.modalEnter {
+  transition: all .2s ease-out;
+}
+
+.modalFrom {
+  opacity: 0;
+  transform: scale(95%);
+}
+
+.modalTo {
+  opacity: 1;
+  transform: scale(100%);
+}
+
+.modalLeave {
+  transition: all .15s ease-in;
+}
+
+.close-btn {
+	display: flex;
+	padding: 7px;
+	border: var(--main-border);
+	border-radius: var(--border-radius-100);
+	cursor: pointer;
+	&:hover {
+		opacity: 0.7;
+	}
+}
+

@@ -1,0 +1,14 @@
+.icon-button {
+	text-align: center;
+	padding: 15px;
+	border-radius: var(--border-radius-16);
+	background-color: var(--card-bg);
+	cursor: pointer;
+	&:hover {
+		opacity: 0.7;
+	}
+}
+
+.icon {
+	color: var(--main-blue);
+}

@@ -1,0 +1,30 @@
+.drawer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: var(--content-z-index);
+}
+
+.sheet {
+  position: fixed;
+  left: 2vw;
+  height: calc(100vh + 100px);
+  width: 96vw;
+  padding: 15px;
+  border-radius: 12px 12px 0;
+  background: var(--bg-color);
+  z-index: var(--modal-z-index);
+  touch-action: none;
+}
+
+.opened {
+  pointer-events: auto;
+  opacity: 1;
+  z-index: var(--modal-z-index);
+
+  .content {
+    transform: translateY(0%);
+  }
+}

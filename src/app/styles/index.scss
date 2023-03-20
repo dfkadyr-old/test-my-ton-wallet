@@ -1,0 +1,12 @@
+@import "app/styles/reset.scss";
+@import "app/styles/variables/global.scss";
+@import "app/styles/themes/light.scss";
+@import "app/styles/themes/dark.scss";
+
+body {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+	font: var(--font-m);
+  padding: 8px 16px 16px 16px;
+}
+

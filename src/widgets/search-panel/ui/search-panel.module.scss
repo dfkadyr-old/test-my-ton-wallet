@@ -1,0 +1,22 @@
+.search-panel {
+	background: var(--card-bg);
+	border-radius: var(--border-radius-16);
+	padding: 12px;
+	margin-bottom: 12px;
+	color: var(--accent-gray)
+}
+
+.search-container {
+	display: flex;
+	align-items: center;
+	font: var(--font-m);
+	font-weight: 600;
+}
+
+.search-icon {
+	margin-right: 9px;
+}
+
+.input-container {
+	flex-grow: 1;
+}

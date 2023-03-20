@@ -1,0 +1,75 @@
+:root {
+  // Fonts
+  --font-family-main: 'Nunito', ui-sans-serif, system-ui;
+
+  // XS
+  --font-size-xs: 12px;
+  --font-line-xs: 12px;
+  --font-s: var(--font-size-xs) / var(--font-line-xs) var(--font-family-main);
+
+  // S
+  --font-size-s: 13px;
+  --font-line-s: 13px;
+  --font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-main);
+
+  // M
+  --font-size-m: 15px;
+  --font-line-m: 15px;
+  --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+
+  // XM
+  --font-size-xm: 17px;
+  --font-line-xm: 17px;
+  --font-xm: var(--font-size-xm) / var(--font-line-xm) var(--font-family-main);
+
+  // L
+  --font-size-l: 40px;
+  --font-line-l: 40px;
+  --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+  // XL
+  --font-size-xl: 48px;
+  --font-line-xl: 48px;
+  --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+
+  // Fonts Weight
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-700: 700;
+  --weight-bold: 800;
+
+  // Main Colors
+  --main-green: #2CD36F;
+  --main-green-100: #54F293;
+  --main-red: #F35B5B;
+  --main-blue: #0088CC;
+
+  --white: #ffffff;
+  --black: #000000;
+
+  // RGBA Colors
+  --grean-25: rgba(44, 211, 111, 0.25);
+  --overlay-color: rgba(0, 0, 0, 0.45);
+  --white-60: rgba(255, 255, 255, 0.6);
+
+  // Gradients
+  --blue-gradient: linear-gradient(125deg, #3F79CF 10.21%, #2E74B5 38.29%, #2160A2 65.77%);
+
+  // Modal
+  --modal-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+  --modal-z-index: 999;
+
+  // Border radius
+  --border-radius-100: 100%;
+  --border-radius-16: 16px;
+  --border-radius-12: 12px;
+  --border-radius-8: 8px;
+
+  // Borders
+  --main-border: 0.4px solid rgba(132, 146, 171, 0.3);
+  --separator-border: 0.4px solid rgba(84, 96, 112, 0.3);
+
+  // Z-index
+  --content-z-index: 99;
+  --negative-z-index: -1;
+}
